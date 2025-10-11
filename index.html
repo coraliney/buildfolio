@@ -3,12 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>This will be my portfolio</title>
+  <title>Caroline Gryglas - Portfolio</title>
   <link rel="stylesheet" href="styling/style.css">
 </head>
 <body>
-<h1>This is me</h1>
-<script src="main.js"></script>
-</body>
 
+  <nav role="navigation">
+    <div id="menuToggle">
+
+      <input type="checkbox" id="menuCheckbox" />
+
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <li>
+          <a href="#">
+            <label for="menuCheckbox" onclick="this.parentNode.click();">Caroline</label>
+          </a>
+        </li>
+        <li>
+          <a href="#projects">
+            <label for="menuCheckbox" onclick="this.parentNode.click();">Projects</label>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <label for="menuCheckbox" onclick="this.parentNode.click();">Contact</label>
+          </a>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page" id="home">
+    <h1>Caroline Gryglas</h1>
+    <h2>Full Stack Developer</h2>
+    <p>Just like you</p>
+  </section>
+
+  <section class="page" id="projects">
+    <h1>Projects</h1>
+    <p>Different projects I've done. </p>
+  </section>
+
+  <section class="page" id="contact">
+    <h1>Want to know more or work with me?</h1>
+    <p>Please send me an email and I'll get back to you in a couple of days!</p>
+  </section>
+
+  <script src="main.js"></script>
+</body>
 </html>
