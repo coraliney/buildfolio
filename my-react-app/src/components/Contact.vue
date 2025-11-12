@@ -118,7 +118,7 @@ const sendEmail = () => {
 
 h2 {
   font-size: 1.8rem;
-  color: #111;
+  color: #101010;
   text-align: center;
   margin-bottom: 0.5rem;
 }
@@ -160,7 +160,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: #007bff;
+  border-color: #fafafa;
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
 }
 
