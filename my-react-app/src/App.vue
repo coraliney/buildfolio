@@ -14,6 +14,15 @@
    <section class="contact" id="contact">
     <Contact />
    </section>
+   <!-- Social Bar -->
+   <div class="social-bar">
+  <a href="https://github.com/coraliney" target="_blank" aria-label="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/carolineyt/" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</div>
 </div>
 </template>
 
