@@ -4,8 +4,8 @@
 <!-- Home -->
   <section class="home" id="home">
     <div class="left-side">
-    <h1>Hey, I'm Caroline</h1>
-    <p>A frontend developer currently based in Stockholm</p>
+    <h1>Hey, I'm Car<span class="highlight-o">o</span>line</h1>
+    <p>A creative, fun and collaborative frontend developer currently based in Stockholm. I love clean design, solving problems, and bringing ideas to life with quality, dedication, and that last touch of care.</p>
   </div>
   <div class="right-side">
     <img src="./assets/images/portraitcircle.jpg">
@@ -72,20 +72,27 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    text-align: left;
     align-items: flex-start;
+    max-width:400px;
   }
 
   .right-side{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
   }
 
   .right-side img {
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   border-radius: 80%;
   object-fit: cover;
+}
+
+.highlight-o{
+  color:#7b66ff;
+
 }
 </style>

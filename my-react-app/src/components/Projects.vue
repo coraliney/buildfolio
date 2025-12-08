@@ -87,7 +87,7 @@ const projects = [
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 1.5rem;
-  height: 80vh;
+  height: 50vh;
 }
 
 .project-card {
@@ -166,7 +166,6 @@ const projects = [
   background: #0097a7;
 }
 
-/* 📱 Mobilversion */
 @media (max-width: 900px) {
   .projects-grid {
     grid-template-columns: 1fr 1fr;

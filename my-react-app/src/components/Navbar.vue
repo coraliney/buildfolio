@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-<!--     <img src="../assets/images/1.png" class="logo"> -->
+<!--   <img src="../assets/images/1.png" class="logo"> -->
     <ul class="menu">
       <li><a href="#home">Home</a></li>
       <li><a href="#projects">Projects</a></li>
@@ -31,28 +31,29 @@
 .menu {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   margin: 0;
   padding: 0;
 }
 
 .menu a {
   text-decoration: none;
+  text-transform: uppercase;
   color: #000;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 1.1rem;
   transition: color 0.3s ease, border-bottom 0.3s ease;
   padding-bottom: 3px;
 }
 
 .menu a:hover {
-  color: #000000;
+  color: #7b66ff;
   border-bottom: 1px solid #000000;
 }
 
-.logo {
+/* .logo {
   display: flex;
-  width: 130px;
-}
+  width: 150px;
+} */
 
 </style>

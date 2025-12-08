@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Quicksand, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,7 +15,7 @@
 
 body {
   margin: 0;
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Quicksand, sans-serif;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   overflow-x: hidden;
@@ -66,7 +66,7 @@ h1, h2, p {
 }
 
 .social-bar a:hover {
-  background: #ffc396; 
+  background: #7b66ff; 
   color: white;
   transform: scale(1.15);
 }
