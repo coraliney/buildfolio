@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <img src="../assets/images/1.png" class="logo">
+<!--     <img src="../assets/images/1.png" class="logo"> -->
     <ul class="menu">
       <li><a href="#home">Home</a></li>
       <li><a href="#projects">Projects</a></li>
@@ -22,7 +22,7 @@
   width: 100%;
   background: transparent;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   padding: 1rem 1.5rem;
   box-sizing: border-box;
   z-index: 1000;
