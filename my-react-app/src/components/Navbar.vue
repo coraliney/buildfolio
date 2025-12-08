@@ -1,5 +1,6 @@
 <template>
   <nav class="navbar">
+    <img src="../assets/images/1.png" class="logo">
     <ul class="menu">
       <li><a href="#home">Home</a></li>
       <li><a href="#projects">Projects</a></li>
@@ -8,18 +9,22 @@
   </nav>
 </template>
 
-<script setup></script>
+<script setup>
+</script>
+
 
 <style scoped>
 .navbar {
   position: fixed;
   top: 0;
   right: 0;
+  left: 0;
   width: 100%;
   background: transparent;
   display: flex;
-  justify-content: flex-end;
-  padding: 1rem 3rem;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  box-sizing: border-box;
   z-index: 1000;
 }
 
@@ -44,4 +49,10 @@
   color: #000000;
   border-bottom: 1px solid #000000;
 }
+
+.logo {
+  display: flex;
+  width: 130px;
+}
+
 </style>
