@@ -21,28 +21,33 @@
 </template>
 
 <script setup>
+import thezoo from '../assets/images/thezoo.jpg'
+import hitchhike from '../assets/images/hitchhike.png'
+import todo from '../assets/images/todo.jpg'
+
 const projects = [
   {
     id: 1,
     name: 'The Zoo - Feedpaws',
     description: 'An interactive zoo experience where you can feed adorable virtual animals. Created using React and TS.',
-    image: '/src/assets/images/thezoo.jpg',
+    image: thezoo,
     link: 'https://github.com/coraliney/thezoo'
   },
   {
     id: 2,
     name: 'Hitchhike - rent a car together!',
     description: 'A collaborative car rental platform built with React, Node.js, Express, MongoDB, and Chakra UI.',
-    image: '/src/assets/images/hitchhike.png',
+    image: hitchhike,
     link: 'https://github.com/coraliney/projekt-coral'
   },
   {
     id: 3,
     name: 'Todo Tracker',
     description: 'A minimalist to-do list with local storage.',
-    image: '/src/assets/images/todo.jpg',
+    image: todo,
     link: 'https://github.com/coraliney/todo'
-  },
+  }
+]
   /* {
     id: 4,
     name: 'project',
@@ -64,7 +69,6 @@ const projects = [
     image: '/images/something.png',
     link: 'https://github.com/'
   } */
-]
 </script>
 
 <style scoped>
