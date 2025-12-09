@@ -2,7 +2,7 @@
   <div class="contact-container">
     <form ref="formRef" class="formContainer" @submit.prevent="sendEmail">
       <h2>Want to get in touch?</h2>
-      <p>Did you find anything interesting here? Want to do a collab or hire me for a job? Please send me a message and I'll reply to you as fast as I can. Can't wait to here from you! ☺️</p>
+      <p>Want to do a collab or hire me for a job? Please send me a message and I'll reply to you as fast as I can. Can't wait to here from you! ☺️</p>
       <p id="move-right">Sincerely,<br>
         Caroline<br>
       </p>
@@ -103,11 +103,11 @@ const sendEmail = () => {
   border-radius: 16px;
   padding: 2.5rem;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-  max-width: 450px;
+  max-width: 400px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 0.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -117,22 +117,25 @@ const sendEmail = () => {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   color: #101010;
+  text-transform: uppercase;
   text-align: center;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem 0;
 }
 
 p {
   color: #555;
   font-size: 0.95rem;
-  line-height: 1.6;
+  line-height: 1.2;
   text-align: left;
-  margin-bottom: 0.1rem;
+  margin: 0 0 0.5rem 0;
 }
 
 #move-right {
-text-align: center;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 
@@ -170,10 +173,10 @@ textarea {
 
 .formButton {
   align-self: center;
-  background: #007bff;
+  background: #7b66ff;
   color: white;
   border: none;
-  padding: 0.9rem 1.8rem;
+  padding: 0.6rem 1.8rem;
   border-radius: 8px;
   font-weight: 600;
   font-size: 1rem;
@@ -182,7 +185,7 @@ textarea {
 }
 
 .formButton:hover {
-  background: #56a8ff;
+  background: #ada1ff;
   transform: translateY(2px);
 }
 

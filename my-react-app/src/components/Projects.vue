@@ -117,17 +117,18 @@ const projects = [
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 40%;
+  height: 100%;
   background: rgba(0,0,0,0.6);
   color: white;
   transform: translateY(100%);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   padding: 1rem;
   text-align: center;
   transition: transform 0.3s ease;
+  overflow-y: auto;
 }
 
 .project-card:hover .overlay {
@@ -153,7 +154,7 @@ const projects = [
 
 .project-link {
   display: inline-block;
-  background: #00bcd4;
+  background: #7b66ff;
   color: white;
   padding: 0.2rem 1.2rem;
   border-radius: 4px;
@@ -163,7 +164,7 @@ const projects = [
 }
 
 .project-link:hover {
-  background: #0097a7;
+  background: #a092ff;
 }
 
 @media (max-width: 900px) {
